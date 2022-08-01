@@ -1,7 +1,15 @@
+import { Header } from "./components/Header";
+import { AppRoutes } from "./routes";
+
 function App() {
   return (
-    <h1>oi</h1>
-  )
+    <>
+      <Header />
+      <div className="wrapper">
+        <AppRoutes />
+      </div>
+    </>
+  );
 }
 
-export default App
+export default App;

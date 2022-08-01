@@ -1,0 +1,55 @@
+:root {
+  --font: 'Poppins', sans-serif;
+
+  --primary-color: #1F2123;
+  --secondary-color: #FF9F3B;
+
+  --text-color: #FEFEFE;
+  --text-color-gray: #9C9AA2;
+
+  --nav-height: 8vh;
+  --radius: 1rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+body, button, input, textarea {
+  font-family: var(--font);
+  font-size: 1.6rem;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.wrapper {
+  padding-inline: 3rem;
+  margin-inline: auto;
+  width: min(130rem, 100%);
+}

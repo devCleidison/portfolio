@@ -1,0 +1,31 @@
+header .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: var(--nav-height);
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    font-size: 2.2rem;
+  }
+
+  #toggle-menu svg {
+    display: flex;
+    align-items: center;
+
+    font-size: 2.4rem;
+    color: var(--text-color);
+
+    pointer-events: none;
+  }
+}
+
+@media (min-width: 768px) {
+  #toggle-menu {
+    display: none;
+  }
+}

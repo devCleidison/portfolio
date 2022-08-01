@@ -1,0 +1,44 @@
+nav {
+  position: absolute;
+  top: -100%;
+
+  &.show-menu {
+    top: var(--nav-height);
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: var(--primary-color);
+    font-size: 2rem;
+
+    ul {
+      height: calc(100vh - var(--nav-height));
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+
+    a:hover {
+      color: var(--secondary-color);
+    }
+
+    a.active {
+      color: var(--secondary-color);
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  nav {
+    position: initial;
+    top: initial;
+  }
+}
