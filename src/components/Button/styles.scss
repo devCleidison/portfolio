@@ -36,4 +36,16 @@ button {
       }
     }
   }
+
+  &.repo,
+  &.site {
+    padding: 0.8rem 2rem;
+    background-color: var(--secondary-color);
+    border-radius: var(--radius);
+    color: var(--primary-color);
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
 }

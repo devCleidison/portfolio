@@ -1,7 +1,7 @@
 import StudyingPerson from '../../assets/studying-person.png'
 import { SkillCard } from '../../components/SkillCard';
 
-import { skills } from '../../data/skills'
+import { skills } from '../../data/data'
 
 import './styles.scss'
 
