@@ -53,3 +53,24 @@ ul {
   margin-inline: auto;
   width: min(130rem, 100%);
 }
+
+img {
+  max-width: 100%;
+}
+
+section {
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
+    min-height: calc(100vh - var(--nav-height));
+    place-items: center;
+  }
+}
+
+
+@media (max-width: 768px) {
+  body, button, input, textarea {
+    font-size: 1.4rem;
+  }
+}

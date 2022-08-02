@@ -1,0 +1,23 @@
+button {
+  transition: 300ms;
+
+  &.bg-white {
+    color: var(--text-color);
+
+    &:hover {
+      color: var(--secondary-color);
+    }
+  }
+
+  &.bg-emphasis {
+    color: var(--secondary-color);
+
+    &:hover {
+      color: var(--text-color);
+    }
+  }
+
+  &.social {
+    font-size: 3.4rem;
+  }
+}
