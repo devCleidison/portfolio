@@ -1,0 +1,41 @@
+section#skills {
+  .content {
+    gap: 3rem;
+  }
+
+  .col-b {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(6rem, 16rem));
+    gap: 2rem;
+    place-content: center;
+  }
+}
+
+
+
+@media (max-width: 770px) {
+  section#skills {
+    .content {
+      display: flex;
+      flex-direction: column;
+      padding: 3rem 0 8rem;
+
+      .col-b {
+        grid-template-columns: repeat(auto-fill, minmax(6rem, 12rem));
+      }
+    }
+  }
+}
+
+@media (max-width: 340px) {
+  section#skills {
+    .col-a {
+      display: none;
+    }
+    .col-b {
+      grid-template-columns: repeat(auto-fill, minmax(6rem, 8rem));
+    }
+  }
+}
