@@ -2,6 +2,8 @@ nav {
   position: absolute;
   top: -100%;
 
+  z-index: 10;
+
   &.show-menu {
     top: var(--nav-height);
     left: 0;
