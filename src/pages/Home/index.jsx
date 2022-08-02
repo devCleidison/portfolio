@@ -4,6 +4,7 @@ import { Button } from "../../components/Button";
 import Avatar from '../../assets/User.png'
 
 import './styles.scss'
+import { TextTyper } from "../../components/TextTyper";
 
 export const Home = () => {
   const handleOpenSocialLinks = (social) => {
@@ -27,8 +28,23 @@ export const Home = () => {
           <span className="greeting">Oi! 👋</span>
 
           <div className="title-container">
-            <span className="title">Eu sou Cleidison Silva</span>
-            <span className="job">Front-end developer</span>
+            <span className="title">
+              <TextTyper 
+                text='Eu sou Cleidison Silva'
+                time={200}
+                duration={11000}
+                loop='infinity'
+              />
+            </span>
+            <span className="job">
+              <TextTyper 
+                text='Front-end developer'
+                time={200}
+                duration={11000}
+                loop='infinity'
+                delay={5000}
+              />
+            </span>
           </div>
 
           <p className="description">

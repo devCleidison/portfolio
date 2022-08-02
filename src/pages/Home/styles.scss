@@ -19,11 +19,27 @@ section#home {
       .title {
         font-size: 4rem;
         margin: 2rem 0 -.4rem;
+
+        &::after {
+          content: '|';
+          margin-left: .5rem;
+          color: var(--text-color);
+
+          animation: blink 800ms infinite;
+        }
       }
 
       .job {
         font-size: 2rem;
         color: var(--secondary-color);
+
+        &::after {
+          content: '|';
+          margin-left: .5rem;
+          color: var(--secondary-color);
+
+          animation: blink 800ms infinite;
+        }
       }
     }
 
@@ -42,6 +58,15 @@ section#home {
 
   .col-b {
     margin-left: auto;
+  }
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
   }
 }
 
