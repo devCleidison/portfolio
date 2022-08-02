@@ -14,8 +14,7 @@ export const Home = () => {
       window.open("https://github.com/devCleidison", "_blank");
     } else if (social === "whatsapp") {
       window.open(
-        `https://wa.me/5585996989041?text=Olá, Cleidison!
-        Gostaria de conversar com você sobre uma oportunidade.`,
+        `https://wa.me/5585996989041?text=Olá, Cleidison! \nGostaria de conversar com você sobre uma oportunidade.`,
         "_blank"
       );
     }

@@ -22,6 +22,11 @@ section#skills {
       flex-direction: column;
       padding: 3rem 0 8rem;
 
+      .col-a {
+        max-width: 50%;
+        text-align: center;
+      }
+
       .col-b {
         grid-template-columns: repeat(auto-fill, minmax(6rem, 12rem));
       }

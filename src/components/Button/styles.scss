@@ -1,23 +1,39 @@
 button {
   transition: 300ms;
 
-  &.bg-white {
-    color: var(--text-color);
-
-    &:hover {
-      color: var(--secondary-color);
-    }
-  }
-
-  &.bg-emphasis {
-    color: var(--secondary-color);
-
-    &:hover {
-      color: var(--text-color);
-    }
-  }
-
   &.social {
     font-size: 3.4rem;
+
+    &.bg-emphasis {
+      color: var(--secondary-color);
+
+      &:hover {
+        color: var(--text-color);
+      }
+    }
+
+    &.bg-white {
+      color: var(--text-color);
+
+      &:hover {
+        color: var(--secondary-color);
+      }
+    }
+  }
+
+  &.form {
+    padding: 0.8rem 2.4rem;
+    border-radius: var(--radius);
+
+    &.bg-emphasis {
+      background-color: var(--secondary-color);
+      color: var(--primary-color);
+      font-weight: 500;
+
+      &:hover {
+        background-color: var(--text-color);
+        color: var(--secondary-color);
+      }
+    }
   }
 }
