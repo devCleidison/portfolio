@@ -49,7 +49,7 @@ export const projects = [
     repository: "https://github.com/devCleidison/star-wars-the-game",
     deploy: "https://devcleidison-star-wars-the-game.netlify.app/",
     description:
-      "O projeto trata-se de um jogo da valha com a tematica de Star Wars. Nele, você poderá escolher o seu personagem favorito e se divertir com os amigos. Esse projeto está sendo desenvolvido com as tecnologia HTML5, CSS3 e Javascript.",
+      "O projeto trata-se de um jogo da velha com a tematica de Star Wars. Nele, você poderá escolher o seu personagem favorito e se divertir com os amigos. Esse projeto está sendo desenvolvido com as tecnologia HTML5, CSS3 e Javascript.",
     image:
       "https://github.com/devCleidison/star-wars-the-game/blob/main/assets/images/preview.gif?raw=true",
   },

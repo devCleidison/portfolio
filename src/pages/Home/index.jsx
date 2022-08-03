@@ -47,9 +47,11 @@ export const Home = () => {
           </div>
 
           <p className="description">
-            Apaixonado por tecnologia e louco por programação. Sou fascinado
-            pelas possibilidades que a programação nos proporciona. Um mundo
-            novo é criado a partir de umas linhas de código.
+            Desde cedo passava horas na frente do computador na lan house perto
+            de onde morava, mas em vez de ficar jogando como os outros, ficava
+            pesquisando sobre tecnologia. Hoje sei que sou apaixonado por
+            tecnologia, louco por programação e fascinado pelas possibilidades
+            que a programação nos proporciona.
           </p>
 
           <div className="btn-socials">
