@@ -34,11 +34,16 @@ section#skills {
   }
 }
 
-@media (max-width: 340px) {
+@media (max-width: 460px) {
   section#skills {
     .col-a {
       display: none;
     }
+  }
+}
+
+@media (max-width: 340px) {
+  section#skills {
     .col-b {
       grid-template-columns: repeat(auto-fill, minmax(6rem, 8rem));
     }

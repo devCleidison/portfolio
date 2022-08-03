@@ -8,7 +8,7 @@ import { Contact } from "./pages/Contact";
 export const AppRoutes = () => {
   return (
     <Routes>
-      <Route path="/" index element={<Home />} />
+      <Route index element={<Home />} />
       <Route path="projects" element={<Projects />} />
       <Route path="skills" element={<Skills />} />
       <Route path="contact" element={<Contact />} />

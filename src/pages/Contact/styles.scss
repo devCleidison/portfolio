@@ -50,19 +50,13 @@ section#contact {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 460px) {
   section#contact {
     .content {
       .col-a {
         width: 100%;
       }
-    }
-  }
-}
 
-@media (max-width: 340px) {
-  section#contact {
-    .content {
       .col-b {
         display: none;
       }
