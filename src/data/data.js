@@ -39,7 +39,7 @@ export const projects = [
     repository: "https://github.com/devCleidison/pokemon",
     deploy: "https://devcleidison-pokemon.netlify.app/",
     description:
-      "O projeto trata-se de um site com a temática de Pokémon. Nele, você poderá pesquisar por seus pokémons favoritos, além de aprender um pouco mais sobre a história do mundo destas criaturinhas. Esse projeto foi desenvolvido com as tecnologia HTML5, CSS3 e Javascript.",
+      "O projeto trata-se de um site com a temática de Pokémon. Nele, você poderá pesquisar por seus pokémons favoritos, além de aprender um pouco mais sobre a história do mundo destas criaturinhas. Esse projeto foi desenvolvido com as tecnologias HTML5, CSS3 e Javascript.",
     image:
       "https://github.com/devCleidison/pokemon/blob/main/assets/img/preview.gif?raw=true",
   },
@@ -49,7 +49,7 @@ export const projects = [
     repository: "https://github.com/devCleidison/star-wars-the-game",
     deploy: "https://devcleidison-star-wars-the-game.netlify.app/",
     description:
-      "O projeto trata-se de um jogo da velha com a tematica de Star Wars. Nele, você poderá escolher o seu personagem favorito e se divertir com os amigos. Esse projeto está sendo desenvolvido com as tecnologia HTML5, CSS3 e Javascript.",
+      "O projeto trata-se de um jogo da velha com a temática de Star Wars. Nele, você poderá escolher o seu personagem favorito e se divertir com os amigos. Esse projeto está sendo desenvolvido com as tecnologias HTML5, CSS3 e Javascript.",
     image:
       "https://github.com/devCleidison/star-wars-the-game/blob/main/assets/images/preview.gif?raw=true",
   },
@@ -59,7 +59,7 @@ export const projects = [
     repository: "https://github.com/devCleidison/tasty-food",
     deploy: "https://devcleidison-tasty-food.netlify.app/",
     description:
-      "O projeto trata-se de um site para um restaurante. Esse projeto foi desenvolvido com as tecnologia HTML5, CSS3 e Javascript.",
+      "O projeto trata-se de um site para um restaurante. Esse projeto foi desenvolvido com as tecnologias HTML5, CSS3 e Javascript.",
     image:
       "https://github.com/devCleidison/tasty-food/blob/main/assets/img/preview.gif?raw=true",
   },
