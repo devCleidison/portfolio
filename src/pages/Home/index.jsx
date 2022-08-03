@@ -1,9 +1,9 @@
 import { FaLinkedin, FaGithubSquare, FaWhatsappSquare } from "react-icons/fa";
 
 import { Button } from "../../components/Button";
-import Avatar from '../../assets/User.png'
+import Avatar from "../../assets/User.png";
 
-import './styles.scss'
+import "./styles.scss";
 import { TextTyper } from "../../components/TextTyper";
 
 export const Home = () => {
@@ -28,30 +28,28 @@ export const Home = () => {
 
           <div className="title-container">
             <span className="title">
-              <TextTyper 
-                text='Eu sou Cleidison Silva'
+              <TextTyper
+                text="Eu sou Cleidison Silva"
                 time={200}
                 duration={11000}
-                loop='infinity'
+                loop="infinity"
               />
             </span>
             <span className="job">
-              <TextTyper 
-                text='Front-end developer'
+              <TextTyper
+                text="Front-end developer"
                 time={200}
                 duration={11000}
-                loop='infinity'
+                loop="infinity"
                 delay={5000}
               />
             </span>
           </div>
 
           <p className="description">
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less normal
-            distribution of letters, as opposed to using 'Content here, content
-            here', making it look like readable English.
+            Apaixonado por tecnologia e louco por programação. Sou fascinado
+            pelas possibilidades que a programação nos proporciona. Um mundo
+            novo é criado a partir de umas linhas de código.
           </p>
 
           <div className="btn-socials">
