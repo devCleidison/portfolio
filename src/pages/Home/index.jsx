@@ -54,6 +54,17 @@ export const Home = () => {
             que a programação nos proporciona.
           </p>
 
+          <p className="description">
+            Sou dedicado e não paro até resolver um problema. Adoro um novo
+            desafio, estou sempre disposto a aprender e adoro trabalho em
+            equipe.
+          </p>
+
+          <p className="description">
+            Meu objetivo é me tornar um desenvolvedor de excelência, sempre
+            trabalhando com eficiência me dedicando ao máximo.
+          </p>
+
           <div className="btn-socials">
             <Button
               className="btn bg-white social"

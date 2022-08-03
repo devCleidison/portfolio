@@ -45,7 +45,7 @@ section#home {
 
     .description {
       color: var(--text-color-gray);
-      margin: 2rem 0 4rem;
+      margin-top: 2rem;
       text-align: justify;
     }
 
@@ -53,6 +53,7 @@ section#home {
       display: flex;
       align-items: center;
       gap: 1rem;
+      margin-top: 4rem;
     }
   }
 
